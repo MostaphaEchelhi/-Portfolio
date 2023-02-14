@@ -91,7 +91,9 @@ a:hover {
 }
 
 .containerThree {
-    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .aboutMe {
@@ -114,7 +116,8 @@ a:hover {
 }
 
 .imageResume {
-    border: dashed 3px black;
+    border: solid 3px #000;
+    border-radius: 20px;
 }
 
 .textSkills {
@@ -151,13 +154,16 @@ a:hover {
 
 .fa-github {
     color: white;
-    background-color: black;
+    background-color: purple;
     border-radius: 50px;
 }
 
-
 .containerFour {
     height: 100vh;
+}
+
+
+.videoMyWoek{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -194,5 +200,57 @@ a:hover {
     color: blue;
     background-color: white;
     border-radius: 11px;
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 800px) {
+
+    .photoOnMe {
+        width: 25rem;
+        height: 25rem;
+    }
+
+
+    .name {
+        font-size: 6rem;
+    }
+
+    h2 {
+        font-size: 4rem;
+    }
+
+    .textAboutMe {
+        width: 36rem;
+        font-size: 2rem;
+    }
+
+
+
+    .imageResume {
+        width: 25rem;
+        height: 30rem;
+    }
+
+    .skillsLogo {
+        font-size: 9rem;
+    }
+
+    .contactLogo {
+        font-size: 9rem;
+    }
+
+    .videoMyWoek {
+        display: grid;
+        justify-items: center;
+        justify-content: space-evenly;
+        grid-template:
+        "a a"
+        "b b";
+    }
 }
 
