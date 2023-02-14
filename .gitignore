@@ -1,0 +1,29 @@
+# Denna fil innehåller en lista med filer, som _inte_ ska commit:as till GitHub-repot.
+# Du behöver inte göra någonting med denna fil. Stäng den :)
+
+*.css.map
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
