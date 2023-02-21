@@ -1,11 +1,27 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: cadetblue;
+    background-image: url(/img/landpic.jpg);
+}
+
+body.light {
+  background-image: url(/img/landpic.jpg);
+}
+
+body.dark {
+    background-image: url(/img/star.jpg);
+    color: white;
 }
 
 .containerOne {
     text-align: end;
+}
+
+.toSpace {
+    position: absolute;
+    left: 0;
+    background: linear-gradient(180deg, black, white);
+    color: yellow;
 }
 
 .btnMenu {
@@ -47,7 +63,7 @@ nav {
     width: 100vw;
     height: 100vh;
     right: 0;
-    background-color: cadetblue;
+    background-color: #5f9ea0;
     font-size: xxx-large;
 }
 
@@ -95,6 +111,7 @@ a:hover {
     flex-direction: column;
     align-items: center;
 }
+
 
 .aboutMe {
     text-align: center;
