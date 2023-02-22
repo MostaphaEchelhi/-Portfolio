@@ -1,15 +1,15 @@
 body {
     margin: 0;
     padding: 0;
-    background-image: url(/img/landpic.jpg);
+    background-color: bisque;
 }
 
 body.light {
-  background-image: url(/img/landpic.jpg);
+  background-color: bisque;
 }
 
 body.dark {
-    background-image: url(/img/star.jpg);
+    background-color: midnightblue;
     color: white;
 }
 
@@ -17,11 +17,9 @@ body.dark {
     text-align: end;
 }
 
-.toSpace {
+.changeBg {
     position: absolute;
     left: 0;
-    background: linear-gradient(180deg, black, white);
-    color: yellow;
 }
 
 .btnMenu {
