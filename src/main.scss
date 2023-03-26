@@ -4,23 +4,11 @@ body {
     background-color: bisque;
 }
 
-body.light {
-  background-color: bisque;
-}
-
-body.dark {
-    background-color: midnightblue;
-    color: white;
-}
 
 .containerOne {
     text-align: end;
 }
 
-.changeBg {
-    position: absolute;
-    left: 0;
-}
 
 .btnMenu {
     background-color: transparent;
@@ -61,7 +49,7 @@ nav {
     width: 100vw;
     height: 100vh;
     right: 0;
-    background-color: #5f9ea0;
+    background-color: bisque;
     font-size: xxx-large;
 }
 
@@ -149,13 +137,11 @@ a:hover {
 }
 
 .fa-html5 {
-    background-color: red;
-    border: dashed;
+    color: rgb(221, 5, 5);
 }
 
 .fa-css3-alt {
-    background-color: lightblue;
-    border: dashed;
+    color: rgb(1, 71, 250);
 }
 
 .fa-sass {
@@ -163,8 +149,9 @@ a:hover {
 }
 
 .fa-square-js {
-    background-color: yellow;
-    border: dashed;
+    color: yellow;
+    background-color: #000;
+    border-radius: 10px;
 }
 
 .fa-github {
